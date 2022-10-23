@@ -55,7 +55,7 @@ namespace VPW2ROMID
 			this.tableLayoutPanel1.Name = "tableLayoutPanel1";
 			this.tableLayoutPanel1.RowCount = 1;
 			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-			this.tableLayoutPanel1.Size = new System.Drawing.Size(600, 33);
+			this.tableLayoutPanel1.Size = new System.Drawing.Size(680, 33);
 			this.tableLayoutPanel1.TabIndex = 0;
 			// 
 			// lblRomFilePath
@@ -64,24 +64,24 @@ namespace VPW2ROMID
 			this.lblRomFilePath.AutoSize = true;
 			this.lblRomFilePath.Location = new System.Drawing.Point(3, 10);
 			this.lblRomFilePath.Name = "lblRomFilePath";
-			this.lblRomFilePath.Size = new System.Drawing.Size(114, 13);
+			this.lblRomFilePath.Size = new System.Drawing.Size(130, 13);
 			this.lblRomFilePath.TabIndex = 0;
 			this.lblRomFilePath.Text = "Path to &ROM File";
 			// 
 			// tbRomFilePath
 			// 
 			this.tbRomFilePath.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-			this.tbRomFilePath.Location = new System.Drawing.Point(123, 6);
+			this.tbRomFilePath.Location = new System.Drawing.Point(139, 6);
 			this.tbRomFilePath.Name = "tbRomFilePath";
-			this.tbRomFilePath.Size = new System.Drawing.Size(354, 20);
+			this.tbRomFilePath.Size = new System.Drawing.Size(402, 20);
 			this.tbRomFilePath.TabIndex = 1;
 			// 
 			// btnBrowseRom
 			// 
 			this.btnBrowseRom.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-			this.btnBrowseRom.Location = new System.Drawing.Point(483, 5);
+			this.btnBrowseRom.Location = new System.Drawing.Point(547, 5);
 			this.btnBrowseRom.Name = "btnBrowseRom";
-			this.btnBrowseRom.Size = new System.Drawing.Size(114, 23);
+			this.btnBrowseRom.Size = new System.Drawing.Size(130, 23);
 			this.btnBrowseRom.TabIndex = 2;
 			this.btnBrowseRom.Text = "&Browse...";
 			this.btnBrowseRom.UseVisualStyleBackColor = true;
@@ -93,7 +93,7 @@ namespace VPW2ROMID
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.btnVerifyRom.Location = new System.Drawing.Point(12, 55);
 			this.btnVerifyRom.Name = "btnVerifyRom";
-			this.btnVerifyRom.Size = new System.Drawing.Size(600, 34);
+			this.btnVerifyRom.Size = new System.Drawing.Size(680, 34);
 			this.btnVerifyRom.TabIndex = 3;
 			this.btnVerifyRom.Text = "&Verify ROM";
 			this.btnVerifyRom.UseVisualStyleBackColor = true;
@@ -107,7 +107,7 @@ namespace VPW2ROMID
 			this.tbOutput.Name = "tbOutput";
 			this.tbOutput.ReadOnly = true;
 			this.tbOutput.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-			this.tbOutput.Size = new System.Drawing.Size(594, 155);
+			this.tbOutput.Size = new System.Drawing.Size(674, 235);
 			this.tbOutput.TabIndex = 4;
 			// 
 			// gbOutput
@@ -117,7 +117,7 @@ namespace VPW2ROMID
 			this.gbOutput.Controls.Add(this.tbOutput);
 			this.gbOutput.Location = new System.Drawing.Point(12, 95);
 			this.gbOutput.Name = "gbOutput";
-			this.gbOutput.Size = new System.Drawing.Size(600, 174);
+			this.gbOutput.Size = new System.Drawing.Size(680, 254);
 			this.gbOutput.TabIndex = 4;
 			this.gbOutput.TabStop = false;
 			this.gbOutput.Text = "&Output";
@@ -126,7 +126,7 @@ namespace VPW2ROMID
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(624, 281);
+			this.ClientSize = new System.Drawing.Size(704, 361);
 			this.Controls.Add(this.gbOutput);
 			this.Controls.Add(this.btnVerifyRom);
 			this.Controls.Add(this.tableLayoutPanel1);
@@ -134,7 +134,7 @@ namespace VPW2ROMID
 			this.MaximizeBox = false;
 			this.MinimizeBox = false;
 			this.Name = "Form1";
-			this.Text = "Virtual Pro-Wrestling 2 ROM Identifier";
+			this.Text = "AKI N64 ROM Identifier";
 			this.tableLayoutPanel1.ResumeLayout(false);
 			this.tableLayoutPanel1.PerformLayout();
 			this.gbOutput.ResumeLayout(false);

@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("VPW2ROMID")]
-[assembly: AssemblyDescription("Virtual Pro-Wrestling 2 ROM Identifier")]
+[assembly: AssemblyDescription("AKI N64 ROM Identifier")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("freemco")]
 [assembly: AssemblyProduct("VPW2ROMID")]
 [assembly: AssemblyCopyright("what's a copyright?")]
-[assembly: AssemblyTrademark("Virtual Pro-Wrestling 2 is likely a trademark of AKI Corporation/syn sophia, of which I am neither.")]
+[assembly: AssemblyTrademark("all trademarks belong to their owners, who are not me.")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("2.0.0.0")]
+[assembly: AssemblyFileVersion("2.0.0.0")]
